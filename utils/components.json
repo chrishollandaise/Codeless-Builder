@@ -1,0 +1,27 @@
+{
+  "Forms": [
+    "Button",
+    "Checkbox",
+    "IconButton",
+    "Input",
+    "Link",
+    "Radio",
+    "Select",
+    "Slider",
+    "Switch",
+    "TextArea"
+  ],
+  "Data Display": ["Badge", "Divider"],
+  "Feedback": ["Alert", "Progress", "Skeleton", "Spinner"],
+  "Typography": ["Text", "Heading"],
+  "Overlay": ["Menu",  "Tooltip"],
+  "Media and Icons": ["Avatar", "Icon", "Image"],
+  "React Native Components": [
+    "ScrollView",
+    "View",
+    "StatusBar",
+    "FlatList",
+    "SectionList"
+  ],
+  "Others": ["Fab", "Hidden"]
+}
