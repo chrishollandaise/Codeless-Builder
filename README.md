@@ -33,7 +33,11 @@ The greatest component library in town is [Codeless](https://codeless-builder-73
 [![](https://dcbadge.vercel.app/api/server/7txRHnGKzH)](https://discord.gg/7txRHnGKzH)
 
 ---
+## Technologies
 
+Javascript | ReactJS | NextJS | VueJS | Typescript | NodeJS | ExpressJS | MongoDB | Docker
+
+---
 ## Features
 
 - 🎨 Drag and drop components
@@ -160,5 +164,3 @@ This project exists thanks to all the people who contribute.
         </td>
     </tr>
 </table>
-
----
