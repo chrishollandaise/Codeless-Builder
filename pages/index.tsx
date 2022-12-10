@@ -51,7 +51,7 @@ const HomePage = () => {
               >
                 <ImageBackground
                   source={{
-                    uri: 'https://i.pinimg.com/originals/af/cc/7d/afcc7dd829be97c8e5eeb76ec40a86ff.png',
+                    uri: '/images/mockup.png',
                   }}
                   resizeMode='cover'
                   style={{

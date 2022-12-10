@@ -23,36 +23,36 @@ const Navbar = () => {
   return (
     <>
       <HStack
-        bg='coolGray.800'
+        bg='rgba(0, 0, 32, 1)'
         px='5'
         py='3'
         justifyContent='space-between'
         alignItems='center'
         w='100%'
-        h='10vh'
+        h='7vh'
       >
         <HStack alignItems='center'>
           <Flex direction='row' justifyContent={'center'} align={'center'}>
             <Image
               width='55px'
-              height='61px'
+              height='55px'
               marginTop={1}
-              src='/images/nativebase-logo.svg'
-              alt='NativeBase Logo'
+              src='/images/logo/logo.png'
+              alt='Codeless Logo'
             />
             <Text
               marginLeft={2}
               color='white'
-              fontSize='20'
+              fontSize='25'
               fontWeight='semibold'
             >
-              Nativebase <Text fontWeight='bold'>Builder</Text>
+              Codeless <Text fontWeight='bold'>Builder</Text>
             </Text>
           </Flex>
         </HStack>
         <HStack space={5}>
           <Menu
-            bg='coolGray.700'
+            bg='rgba(0, 0, 32, 1)'
             placement='bottom right'
             trigger={triggerProps => (
               <Button colorScheme='coolGray' {...triggerProps}>
@@ -61,15 +61,15 @@ const Navbar = () => {
             )}
           >
             <Menu.Item
-              bg='coolGray.700'
-              _hover={{ bg: 'coolGray.600' }}
+              bg='rgba(0, 0, 32, 1)'
+              _hover={{ bg: 'coolGray.500' }}
               onPress={() => handleExportCode('jsx')}
             >
               <JavaScriptIcon />
             </Menu.Item>
             <Menu.Item
-              bg='coolGray.700'
-              _hover={{ bg: 'coolGray.600' }}
+              bg='rgba(0, 0, 32, 1)'
+              _hover={{ bg: 'coolGray.500' }}
               onPress={() => handleExportCode('tsx')}
             >
               <TypeScriptIcon />
