@@ -33,20 +33,21 @@ The greatest component library in town is [Codeless](https://codeless-builder-73
 [![](https://dcbadge.vercel.app/api/server/7txRHnGKzH)](https://discord.gg/7txRHnGKzH)
 
 ---
+
 ## Technologies
 
 Javascript | ReactJS | NextJS | VueJS | Typescript | NodeJS | ExpressJS | MongoDB | Docker
 
 ---
+
 ## Features
 
-- 🎨 Drag and drop components
-- 💅 Preset components
-- 👀 Live props editing and styling
-- ⚛️ Production-ready code
-- 🎈 CodeSandbox export
-- 🔮 Undo/redo edit
-- 💽 Localstorage sync
+- Drag & Drop Components
+- Preset Components
+- Export 4 frameworks ( ReactJS, VueJS, NextJs, Typescript)
+- Build Mobile View / Web View
+- Build Static & Dynamic Website
+- Production Ready Code
 
 ---
 
@@ -60,7 +61,7 @@ The Builder mode increases the padding and border to make choosing components ea
 
 ### Code panel
 
-To view the JSX/React code of your components, toggle the code panel. Even better, you can export your code right to CodeSandbox!
+To view the JS/JSX/TSX code of your components, toggle the code panel. Even better, you can export your code right to CodeSandbox!
 
 > 💡Toggle the Code panel with the `c` shortcut
 
@@ -94,21 +95,6 @@ By clicking on a component containing children, you will see a Children panel ap
 
 ---
 
-### Editor Shortcuts
-
-| Shortcut         | Description               |
-| ---------------- | ------------------------- |
-| `cmd+Z` `ctrl+Z` | Undo last action          |
-| `cmd+Y` `ctrl+y` | Redo action               |
-| `cmd+D` `ctrl+d` | Duplicate component       |
-| `del`            | Delete selected component |
-| `c`              | Toggle Code panel         |
-| `b`              | Toggle Builder mode       |
-| `p`              | Select parent component   |
-| `Esc`            | Unselect component        |
-
----
-
 ## Roadmap
 
 - More Codeless UI components integration
@@ -116,11 +102,13 @@ By clicking on a component containing children, you will see a Children panel ap
 - Props panel improvements
 - Code generation improvements
 - Dark mode support
+- Login system
+- Build static & dynamic feature (Form, Login System, Database ec...)
 - Custom presets
 - Custom theme
-- Handle PseudoBox state (hover, active…)
 - Fix bugs 🧨
 - Support other UI (Material, Reakit...)
+- More framework export
 
 ---
 
@@ -130,9 +118,10 @@ By clicking on a component containing children, you will see a Children panel ap
     <td align="center">
         <a href="https://github.com/aryasoni98">
             <img src="https://avatars.githubusercontent.com/u/18515597?s=400&u=4ecfe979f461f79e86a9c7a26183c1327da5d2bc&v=4" width="100px" alt="" />
-            <br /> <sub><b>Arya Soni</b></sub>
+            <br />
         </a>
-        <br/><a href="https://github.com/aryasoni98"> Admin </a>
+        <sub>Arya Soni</sub>
+        <br/><a href="https://www.linkedin.com/in/aryasoni/"> LinkedIn </a>
     </td>
 </table>
 
@@ -163,4 +152,19 @@ This project exists thanks to all the people who contribute.
             </a>
         </td>
     </tr>
+</table>
+
+---
+
+## Project Select Program
+
+<table>
+    <td align="center">
+      <p>
+        <img src="https://fossoverflow.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.4bd48c29.png&w=1920&q=75" width="150px" alt="" /><br><a href="https://fossoverflow.dev"> FOSS Overflow </a>
+    </td>
+    <td align="center">
+      <p>
+        <img src="https://www.codepeak.tech/static/media/logo.33a91fcb.png" width="150px" alt="" /><br><a href="https://www.codepeak.tech"> CODEPEAK </a>
+    </td>
 </table>
